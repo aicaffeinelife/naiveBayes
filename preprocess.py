@@ -41,8 +41,12 @@ if __name__ == '__main__':
                         type=str,
                         required=True,
                         help='Path to data file')
+    parser.add_argument('--split',
+                        type=float,
+                        default=0.8,
+                        help='Train/Test split')
     args = parser.parse_args()
-    read_and_process(args.data)
+    read_and_process(args.data, train_split=args.split)
 
 
 
