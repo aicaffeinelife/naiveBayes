@@ -18,7 +18,7 @@ where Z is a normalization function obtained by:
 
 <img src="figs/lower_factor.png" />
 
-
+Here p(C|x) is the posterior probability, p(Ci) is the apriori class probability and p(x|Ci) is the class conditional probability. 
 
 ### Installation and Usage
 
