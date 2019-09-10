@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 
   nb.train();
 
-  int pred = nb.predict(test_data[0]);
+  int pred = nb.predict(test_data[1]);
   std::cout << "best prediction:: " << pred <<"\n";
    
   return 0;

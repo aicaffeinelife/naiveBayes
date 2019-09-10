@@ -89,7 +89,7 @@ void NB::train(){
 int NB::predict(vector<float> &sample){
   vector<float> pred(_nClasses, 0.0);
 
-  // crucial: The naive bayes assumes each variance is separate, we're point
+  // crucial: The naive bayes assumes each attribute is separate, we're point
   // sampling the normal distribution with a dimensional mean and variance
   // scaled by a-priori bias.
   for (int i= 0; i < _nClasses; ++i) {
