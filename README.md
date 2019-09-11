@@ -28,6 +28,7 @@ The code compiles into a single `nb` binary that requires the training and test 
 git clone https://github.com/aicaffeinelife/naiveBayes
 mkdir build && cd build 
 cmake ..
+make
 ``` 
 
 If everything compiles, you should be able to run the binary with your training and test files. Included in the repo is the shuttle landing dataset[1] which predicts whether to land a space shuttle in manual or auto mode.
